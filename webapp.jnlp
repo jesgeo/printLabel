@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://intranet/" href="webapp.jnlp">
+	<information>
+		<title>Print Label</title>
+		<vendor>ZigZag Education</vendor>
+		<homepage href="http://intranet/" />
+		<description>Print straight to label printer</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.7+" />
+		<jar href="webapp.jar" />
+	</resources>
+	<application-desc name="Print Label" main-class="applet.WebApp" />
+</jnlp>
